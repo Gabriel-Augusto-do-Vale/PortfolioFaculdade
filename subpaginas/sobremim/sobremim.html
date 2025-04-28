@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Gabriel Augusto, Engenheiro de Software com experiência em desenvolvimento web e mobile.">
+  <meta name="keywords" content="Engenheiro de Software, Desenvolvimento Web, Portfólio, Gabriel Augusto">
+  <link rel="stylesheet" href="sobremim.css">
+  <title>Sobre mim - Gabriel Augusto</title>
+</head>
+<body>
+  <div class="main"></div>
+  <header>
+    <div class="logo">
+      GAV | DEV
+    </div>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="sobremim.html">Sobre mim</a></li>
+        <li><a href="/subpaginas/habilidades/habilidades.html">Habilidades</a></li>
+        <li><a href="/arquivos/CURRICULO GABRIEL AUGUSTO.pdf" target="_blank">Currículo</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="page-title">Sobre mim</h1>
+    <section class="content">
+      <img src="/fotos/inicial/foto_portfolio.jpeg" alt="Foto Gabriel Augusto" class="profile-image">
+      <div class="text-container">
+        <h2 class="text-title">Olá, me chamo Gabriel Augusto.</h2>
+        <p class="description">
+          Sou estudante de Engenharia de Software, tenho 19 anos e sou apaixonado por tecnologia, especialmente nas áreas de programação, automação industrial e robótica. Meu interesse por essas áreas surgiu ainda na infância, e, no ensino médio, tive a oportunidade de me aprofundar e me especializar ao realizar um curso técnico em Mecânica e participar de competições de robótica.
+
+          Atualmente, estou cursando o quinto período de Engenharia de Software no Centro Universitário SENAI CIC. Meu foco é constantemente buscar aperfeiçoamento, tanto no aspecto pessoal, expandindo minha rede de contatos, quanto no profissional, adquirindo conhecimentos e me especializando a cada dia mais.
+
+          Acredito que minha missão é ajudar pessoas a solucionarem problemas por meio da tecnologia, desenvolvendo soluções eficientes e inovadoras.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('nav ul').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

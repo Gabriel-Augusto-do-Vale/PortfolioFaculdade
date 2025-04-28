@@ -1,0 +1,286 @@
+:root {
+    --primary-color: #ce4cc3;
+    --secondary-color: #ffffff;
+    --background-color: #000000;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    box-shadow: 24vw 9vh 1px 0px var(--secondary-color),
+                12vw -24vh 0px 1px var(--secondary-color),
+                -45vw -22vh 0px 0px var(--secondary-color),
+                -37vw -40vh 0px 1px var(--secondary-color),
+                29vw 19vh 0px 1px var(--secondary-color),
+                4vw -8vh 0px 1px var(--secondary-color),
+                -5vw 21vh 1px 1px var(--secondary-color),
+                -27vw 26vh 1px 1px var(--secondary-color),
+                -47vw -3vh 1px 1px var(--secondary-color),
+                -28vw -30vh 0px 1px var(--secondary-color),
+                -43vw -27vh 0px 1px var(--secondary-color),
+                4vw 22vh 1px 1px var(--secondary-color),
+                36vw 23vh 0px 0px var(--secondary-color),
+                -21vw 24vh 1px 1px var(--secondary-color),
+                -16vw 2vh 1px 0px var(--secondary-color),
+                -16vw -6vh 0px 0px var(--secondary-color),
+                5vw 26vh 0px 0px var(--secondary-color),
+                -34vw 41vh 0px 0px var(--secondary-color),
+                1vw 42vh 1px 1px var(--secondary-color),
+                11vw -13vh 1px 1px var(--secondary-color),
+                48vw -8vh 1px 0px var(--secondary-color),
+                22vw -15vh 0px 0px var(--secondary-color),
+                45vw 49vh 0px 0px var(--secondary-color),
+                43vw -27vh 1px 1px var(--secondary-color),
+                20vw -2vh 0px 0px var(--secondary-color),
+                8vw 22vh 0px 1px var(--secondary-color),
+                39vw 48vh 1px 1px var(--secondary-color),
+                -21vw -11vh 0px 1px var(--secondary-color),
+                -40vw 45vh 0px 1px var(--secondary-color),
+                11vw -30vh 1px 0px var(--secondary-color),
+                26vw 30vh 1px 0px var(--secondary-color),
+                45vw -29vh 0px 1px var(--secondary-color),
+                -2vw 18vh 0px 0px var(--secondary-color),
+                -29vw -45vh 1px 0px var(--secondary-color),
+                -7vw -27vh 1px 1px var(--secondary-color),
+                42vw 24vh 0px 0px var(--secondary-color),
+                45vw -48vh 1px 0px var(--secondary-color),
+                -36vw -18vh 0px 0px var(--secondary-color),
+                -44vw 13vh 0px 1px var(--secondary-color),
+                36vw 16vh 0px 1px var(--secondary-color),
+                40vw 24vh 0px 0px var(--secondary-color),
+                18vw 11vh 0px 0px var(--secondary-color),
+                -15vw -23vh 1px 0px var(--secondary-color),
+                -24vw 48vh 0px 1px var(--secondary-color),
+                27vw -45vh 1px 0px var(--secondary-color),
+                -2vw -24vh 0px 1px var(--secondary-color),
+                -15vw -28vh 0px 0px var(--secondary-color),
+                -43vw 13vh 1px 0px var(--secondary-color),
+                7vw 27vh 1px 0px var(--secondary-color),
+                47vw 5vh 0px 0px var(--secondary-color),
+                -45vw 15vh 1px 1px var(--secondary-color),
+                -5vw -28vh 0px 1px var(--secondary-color),
+                38vw 25vh 1px 1px var(--secondary-color),
+                -39vw -1vh 1px 0px var(--secondary-color),
+                5vw 0vh 1px 0px var(--secondary-color),
+                49vw 13vh 0px 0px var(--secondary-color),
+                48vw 10vh 0px 1px var(--secondary-color),
+                19vw -28vh 0px 0px var(--secondary-color),
+                4vw 7vh 0px 0px var(--secondary-color),
+                21vw 21vh 1px 1px var(--secondary-color),
+                -15vw -15vh 0px 1px var(--secondary-color),
+                -6vw -42vh 1px 0px var(--secondary-color),
+                -15vw 48vh 1px 1px var(--secondary-color),
+                -23vw 25vh 1px 1px var(--secondary-color),
+                -48vw 25vh 0px 1px var(--secondary-color),
+                -31vw -19vh 0px 1px var(--secondary-color),
+                4vw 37vh 1px 1px var(--secondary-color),
+                -43vw 28vh 0px 0px var(--secondary-color),
+                3vw -25vh 0px 1px var(--secondary-color),
+                -39vw 14vh 0px 1px var(--secondary-color),
+                -40vw 31vh 0px 1px var(--secondary-color),
+                35vw -36vh 1px 1px var(--secondary-color),
+                16vw 49vh 0px 0px var(--secondary-color),
+                6vw 39vh 0px 0px var(--secondary-color),
+                3vw -35vh 0px 1px var(--secondary-color),
+                -44vw -2vh 1px 0px var(--secondary-color),
+                -6vw 21vh 1px 0px var(--secondary-color),
+                48vw 9vh 1px 1px var(--secondary-color),
+                -43vw 30vh 1px 1px var(--secondary-color),
+                29vw -12vh 1px 1px var(--secondary-color),
+                -48vw 13vh 1px 0px var(--secondary-color),
+                -42vw 32vh 1px 1px var(--secondary-color),
+                34vw 15vh 1px 1px var(--secondary-color),
+                29vw -37vh 1px 1px var(--secondary-color),
+                28vw 2vh 0px 0px var(--secondary-color);
+    animation: zoom 16s alternate infinite;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    width: 100%;
+    height: 3px;
+    background: var(--secondary-color);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Main Content */
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px);
+    text-align: center;
+  }
+  
+  .center-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .center-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: var(--background-color);
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons a img {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    transition: transform 0.3s, opacity 0.3s, filter 0.3s;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+    filter: invert(0.7);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: flex;
+    }
+    nav ul {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+    nav ul.active {
+      display: flex;
+    }
+    .center-content h1 {
+      font-size: 2.5rem;
+    }
+    .center-content p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, fill 0.3s ease; 
+    padding-right: 10px;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px); 
+}
+
+.social-icons a path {
+    transition: fill 0.3s ease;
+}
+
+.social-icons a:hover path {
+    fill: #9B32D9;
+}
+
+.centered-icon {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+  
+  @media (max-width: 480px) {
+    nav ul li a {
+      font-size: 0.9rem;
+    }
+    .center-content h1 {
+      font-size: 2rem;
+    }
+    .center-content p {
+      font-size: 1rem;
+    }
+    .social-icons a img {
+      width: 30px;
+      height: 30px;
+    }
+  }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Gabriel Augusto, Engenheiro de Software com experiência em desenvolvimento web e mobile.">
+  <meta name="keywords" content="Engenheiro de Software, Desenvolvimento Web, Portfólio, Gabriel Augusto">
+  <link rel="stylesheet" href="habilidades.css">
+  <title>Sobre mim - Gabriel Augusto</title>
+</head>
+<body>
+  <div class="main"></div>
+  <header>
+    <div class="logo">
+      GAV | DEV
+    </div>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="/subpaginas/sobremim/sobremim.html">Sobre mim</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="/arquivos/CURRICULO GABRIEL AUGUSTO.pdf" target="_blank">Currículo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h1 class="title">Habilidades</h1>
+    <div class="container">
+      <div class="text-section">
+        <h2>Habilidades e experiências</h2>
+        <p>Ao longo da minha trajetória profissional, tive a oportunidade de estudar e trabalhar com diversas tecnologias e linguagens de programação. Tenho um sólido conhecimento em Python, C e JavaScript, além de um profundo conhecimento em desenvolvimento FrontEnd, especialmente com HTML e CSS.</p>
+
+        <p>Além do desenvolvimento de software, também adquiri experiência no tratamento e análise de dados, utilizando ferramentas como Excel, VBA, Power BI e bancos de dados SQL para gerar insights e otimizar processos.</p>
+          
+
+      </div>
+      <div class="icons-section">
+        <div class="icon-grid">
+          <img src="/fotos/logos/python.png" alt="Python">
+          <img src="/fotos/logos/c.png" alt="C">
+          <img src="/fotos/logos/logotipo-wordpress.png" alt="WordPress">
+          <img src="/fotos/logos/html.png" alt="HTML">
+          <img src="/fotos/logos/css.png" alt="CSS">
+          <img src="/fotos/logos/javascript.png" alt="JavaScript">
+          <img src="/fotos/logos/figma.png" alt="Figma">
+          <img src="/fotos/logos/arquivo-excel.png" alt="Excel">
+          <img src="/fotos/logos/powerbi.png" alt="PowerBI">
+          <img src="/fotos/logos/mysql.png" alt="MySQL">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('nav ul').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
